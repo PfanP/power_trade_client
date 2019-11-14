@@ -1,0 +1,25 @@
+.background-red {
+    background-color: #FF9D9D;
+    color: #FFFFFF;
+}
+
+.background-green {
+    background-color: #6ECF6E;
+}
+
+@media screen and (max-width: 1300px) {
+    .ant-table {
+        &-thead > tr,
+        &-tbody > tr {
+            > th,
+            > td {
+                display: block;
+                width: auto !important;
+                border-bottom: none !important;
+                &:last-child {
+                border-bottom: 1px solid #EEEEEE !important;
+                }
+            }
+        }
+  }
+}
