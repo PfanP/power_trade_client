@@ -29,6 +29,7 @@
     "redux-persist": "^6.0.0",
     "redux-saga": "^1.0.5",
     "reselect": "^4.0.0",
+    "style-loader": "^0.23.1",
     "styled-components": "^4.3.2"
   },
   "scripts": {
@@ -88,7 +89,6 @@
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1",
     "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
     "url-loader": "^2.0.0",
     "webpack": "^4.33.0",
     "webpack-cli": "^3.3.2"
