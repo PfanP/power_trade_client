@@ -30,35 +30,8 @@
     "redux-saga": "^1.0.5",
     "reselect": "^4.0.0",
     "style-loader": "^0.23.1",
-    "styled-components": "^4.3.2"
-  },
-  "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "jest --config ./jest.config.json",
-    "eject": "react-app-rewired eject",
-    "reactide-server": "webpack-dev-server --config reactide.config.js --mode development --hot",
-    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
-    "lint": "eslint src/*.js",
-    "test:watch": "react-app-rewired test --env=jsdom --watchAll"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.40",
+    "styled-components": "^4.3.2",
+        "@babel/cli": "^7.0.0-beta.40",
     "@babel/core": "^7.0.0-beta.40",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/plugin-transform-runtime": "^7.4.4",
@@ -92,5 +65,33 @@
     "url-loader": "^2.0.0",
     "webpack": "^4.33.0",
     "webpack-cli": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "jest --config ./jest.config.json",
+    "eject": "react-app-rewired eject",
+    "reactide-server": "webpack-dev-server --config reactide.config.js --mode development --hot",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
+    "lint": "eslint src/*.js",
+    "test:watch": "react-app-rewired test --env=jsdom --watchAll"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+
   }
 }
