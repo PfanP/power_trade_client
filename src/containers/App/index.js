@@ -60,8 +60,8 @@ const App = ({ user, userList, alert, setMessage, logoutRequest }) => {
   }
   return (
     <div className="App">
-      <Helmet defaultTitle="PingPong - Test Project">
-        <meta name="description" content="PingPong project" />
+      <Helmet defaultTitle="Power Trade">
+        <meta name="description" content="Power Trade" />
       </Helmet>
       <Switch>
         <Route exact path="/login" component={LogInContainer} />
